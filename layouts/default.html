@@ -6,20 +6,22 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="{{ "/" | relative_url }}">Home</a></li>
-                <li>
+    <nav>
+        <ul>
+            <li>
+                <div class="dropdown">
                     <a href="#">Sample Dropdown</a>
-                    <ul>
-                        <li><a href="{{ "/_posts/2024-05-21-sample-post.md" | relative_url }}">Sample Post</a></li>
-                    </ul>
-                </li>
-                <li><a href="{{ "/about.md" | relative_url }}">About</a></li>
-                <li><a href="{{ "/contact.md" | relative_url }}">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
+                    <div class="dropdown-content">
+                        <a href="{{ "/_posts/2024-05-21-sample-post.md" | relative_url }}">Sample Post</a>
+                        <!-- Add more dropdown options here -->
+                    </div>
+                </div>
+            </li>
+            <li><a href="{{ "/about.md" | relative_url }}">About</a></li>
+            <li><a href="{{ "/contact.md" | relative_url }}">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
 
     <main>
         {{ content }}
