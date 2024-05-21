@@ -22,11 +22,11 @@ kramdown:
     span:
       line_numbers: false
 
-
+# Custom theme css
 sass:
   style: compressed
   load_paths:
-    - _sass/custom.scss
+    - _sass
 
 # Exclude these files from processing
 exclude:
