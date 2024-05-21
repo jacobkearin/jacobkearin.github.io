@@ -6,6 +6,4 @@ This is a sample blog post written in Markdown.
 
 Here is some more content.
 
-- Item 1
-- Item 2
-- Item 3
+[post7](/posts/blog_posts/post7)
