@@ -1,0 +1,42 @@
+# _config.yml
+title: kearin.io
+description: The website of Jacob Kearin
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kearin.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: GFM
+
+# Permalinks
+permalink: pretty
+
+# Theme
+# Add the theme you are using here, e.g. minima
+theme: minima
+
+# Markdown settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+
+# Exclude these files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Include these files in the site build
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Any other Jekyll configuration you need can go here

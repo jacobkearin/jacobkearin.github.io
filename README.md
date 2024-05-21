@@ -1,2 +1,2 @@
 # jacobkearin.github.io
-website
+personal website
