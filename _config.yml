@@ -12,7 +12,7 @@ permalink: pretty
 
 # Theme
 # Add the theme you are using here, e.g. minima
-theme: minima
+theme: jekyll-clean-dark
 
 # Markdown settings
 kramdown:
