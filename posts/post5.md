@@ -1,9 +1,4 @@
----
-layout: default
-title: Sample Post2
----
-
-# My First Blog Post
+# post5
 
 This is a sample blog post written in Markdown.
 
