@@ -12,7 +12,7 @@ permalink: pretty
 
 # Theme
 # Add the theme you are using here, e.g. minima
-theme: jekyll-clean-dark
+theme: minima
 
 # Markdown settings
 kramdown:
@@ -21,6 +21,12 @@ kramdown:
   syntax_highlighter_opts:
     span:
       line_numbers: false
+
+
+sass:
+  style: compressed
+  load_paths:
+    - _sass/custom.scss
 
 # Exclude these files from processing
 exclude:
