@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kearin.io" # the base hostname & protocol for your site
 
 # Build settings
-markdown: GFM
+markdown: kramdown
 
 # Permalinks
 permalink: pretty
@@ -13,6 +13,7 @@ permalink: pretty
 # Theme
 # Add the theme you are using here, e.g. minima
 theme: minima
+header_pages: []
 
 # Markdown settings
 kramdown:
